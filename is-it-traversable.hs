@@ -1,6 +1,7 @@
 import Data.List
 import System.IO
 
+-- https://codegolf.stackexchange.com/questions/259083/is-it-traversable
 isItTraversable :: (Integral a) => a -> [a] -> Bool
 isItTraversable stamina _
     | stamina < 0 = False
